@@ -1,0 +1,35 @@
+dateModified: 1630003260
+email:
+  fromEmail: d.matthams@icloud.com
+  fromName: 'Craft Boilerplate'
+  replyToEmail: null
+  template: null
+  transportSettings:
+    command: ''
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    4177199d-e9ca-4ae8-a4db-bc53db03a542: Common # Common
+    c7fbfd09-69ac-477c-9708-27a6a7c6b7a4: 'Craft Boilerplate' # Craft Boilerplate
+    f0e8fcd4-1f08-42e2-99c2-21be8b327aa8: 'Craft Boilerplate' # Craft Boilerplate
+plugins:
+  mix:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      assetPath: /
+      publicPath: web
+system:
+  edition: solo
+  live: true
+  name: 'Craft Boilerplate'
+  retryDuration: null
+  schemaVersion: 3.7.7
+  timeZone: Europe/London
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
