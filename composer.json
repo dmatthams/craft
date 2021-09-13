@@ -43,6 +43,8 @@
       "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
       "@php -r \"unlink('composer.json');\"",
       "@php -r \"rename('composer.json.default', 'composer.json');\"",
+      "@php -r \"@unlink('LICENSE.md');\"",
+      "@php -r \"@unlink('README.md');\"",
       "@composer dump-autoload -o",
       "@php craft setup/welcome"
     ]
