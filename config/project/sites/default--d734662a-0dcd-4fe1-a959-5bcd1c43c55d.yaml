@@ -1,9 +1,9 @@
-baseUrl: $PRIMARY_SITE_URL
+baseUrl: '@web'
 enabled: true
 handle: default
 hasUrls: true
 language: en-GB
 name: 'Craft Boilerplate'
 primary: true
-siteGroup: f0e8fcd4-1f08-42e2-99c2-21be8b327aa8 # Craft Boilerplate
+siteGroup: f3c5a663-2b53-4771-89f2-4276d81adbff # Craft Boilerplate
 sortOrder: 1

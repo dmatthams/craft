@@ -1,32 +1,20 @@
-dateModified: 1630003260
+dateModified: 1631546330
 email:
-  fromEmail: d.matthams@icloud.com
+  fromEmail: admin@admin.com
   fromName: 'Craft Boilerplate'
-  replyToEmail: null
-  template: null
-  transportSettings:
-    command: ''
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
-    4177199d-e9ca-4ae8-a4db-bc53db03a542: Common # Common
-    c7fbfd09-69ac-477c-9708-27a6a7c6b7a4: 'Craft Boilerplate' # Craft Boilerplate
-    f0e8fcd4-1f08-42e2-99c2-21be8b327aa8: 'Craft Boilerplate' # Craft Boilerplate
-plugins:
-  mix:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
-    settings:
-      assetPath: /
-      publicPath: web
+    5c1c9038-bdba-49ec-9f34-31445aa94adb: 'Public Schema' # Public Schema
+    cdf2ecd8-c4bb-4cab-8081-5909e79654ee: Common # Common
+    d734662a-0dcd-4fe1-a959-5bcd1c43c55d: 'Craft Boilerplate' # Craft Boilerplate
+    f3c5a663-2b53-4771-89f2-4276d81adbff: 'Craft Boilerplate' # Craft Boilerplate
 system:
   edition: solo
   live: true
   name: 'Craft Boilerplate'
-  retryDuration: null
-  schemaVersion: 3.7.7
-  timeZone: Europe/London
+  schemaVersion: 3.7.8
+  timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false
   defaultGroup: null
