@@ -1,9 +1,0 @@
-baseUrl: '@web'
-enabled: true
-handle: default
-hasUrls: true
-language: en-GB
-name: 'Craft Boilerplate'
-primary: true
-siteGroup: f3c5a663-2b53-4771-89f2-4276d81adbff # Craft Boilerplate
-sortOrder: 1
