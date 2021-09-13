@@ -2,6 +2,7 @@ let mix = require('laravel-mix');
 let tailwindcss = require('tailwindcss');
 let autoprefixer = require('autoprefixer');
 require('laravel-mix-purgecss');
+require('dotenv').config()
 
 // mix.js('src/app.js', 'web/dist/');
 
@@ -26,7 +27,7 @@ mix.copy('./src/images/**/*', 'web/dist/images/');
 mix.copy('./src/fonts/**/*', 'web/dist/fonts')
 
 mix.browserSync({
-    proxy: 'http://craft-boilerplate.local',
+    proxy: process.env.PRIMARY_SITE_URL,
     files: [
         'config/project',
         'web/dist/**/*.*',
