@@ -20,8 +20,9 @@
   },
   "require": {
     "craftcms/cms": "^3.6.4",
-    "vlucas/phpdotenv": "^3.4.0",
-    "misterbk/mix": "^1.5.2"
+    "misterbk/mix": "^1.5.2",
+    "nystudio107/craft-autocomplete": "^1.0",
+    "vlucas/phpdotenv": "^3.4.0"
   },
   "require-dev": {
     "yiisoft/yii2-shell": "^2.0.3"

@@ -4,9 +4,11 @@ let autoprefixer = require('autoprefixer');
 require('laravel-mix-purgecss');
 require('dotenv').config()
 
-// mix.js('src/app.js', 'web/dist/');
+mix.setPublicPath('/');
 
-mix.sass('./src/app.scss', '/dist/')
+mix.js('./src/app.js', './web/assets/').extract(['alpinejs']);
+
+mix.sass('./src/app.scss', './web/assets/')
     .version()
     .options({
         processCssUrls: false,
@@ -17,20 +19,18 @@ mix.sass('./src/app.scss', '/dist/')
     })
     .purgeCss({
         enabled: mix.inProduction(),
-        content: ['./templates/**/*.twig','./src/app.scss'],
+        content: ['./templates/**/*.twig', './src/app.scss'],
         safelist: []
     })
-    .setPublicPath('web');
 
-mix.copy('./src/images/**/*', 'web/dist/images/');
+mix.copy('./src/images/**/*', './web/assets/images/');
 
-mix.copy('./src/fonts/**/*', 'web/dist/fonts')
+mix.copy('./src/fonts/**/*', './web/assets/fonts')
 
 mix.browserSync({
     proxy: process.env.PRIMARY_SITE_URL,
     files: [
-        'config/project',
-        'web/dist/**/*.*',
+        'web/assets/**/*.*',
         'templates/**/*.twig'
     ]
 });
