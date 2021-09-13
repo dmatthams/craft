@@ -1,11 +1,11 @@
 {
   "require": {
-    "craftcms/cms": "^3.6.4",
+    "craftcms/cms": "^3.7.12",
     "misterbk/mix": "1.5.2",
-    "vlucas/phpdotenv": "^3.4.0"
+    "vlucas/phpdotenv": "^3.6.8"
   },
   "require-dev": {
-    "yiisoft/yii2-shell": "^2.0.3"
+    "yiisoft/yii2-shell": "^2.0.4"
   },
   "autoload": {
     "psr-4": {
