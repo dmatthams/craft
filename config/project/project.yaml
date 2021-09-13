@@ -1,4 +1,4 @@
-dateModified: 1631546970
+dateModified: 1631547396
 email:
   fromEmail: admin@admin.com
   fromName: 'Craft Boilerplate'
@@ -14,12 +14,16 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+    settings:
+      assetPath: /
+      publicPath: web
 system:
   edition: solo
   live: true
   name: 'Craft Boilerplate'
+  retryDuration: null
   schemaVersion: 3.7.8
-  timeZone: America/Los_Angeles
+  timeZone: Europe/London
 users:
   allowPublicRegistration: false
   defaultGroup: null
