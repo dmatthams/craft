@@ -4,7 +4,7 @@ let autoprefixer = require('autoprefixer');
 require('laravel-mix-purgecss');
 require('dotenv').config()
 
-mix.setPublicPath('/');
+mix.setPublicPath('./web/');
 
 mix.js('./src/app.js', './web/assets/').extract(['alpinejs']);
 

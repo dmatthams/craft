@@ -1,5 +1,5 @@
 "use strict";
-(self["webpackChunk"] = self["webpackChunk"] || []).push([["/web/assets/vendor"],{
+(self["webpackChunk"] = self["webpackChunk"] || []).push([["/assets/vendor"],{
 
 /***/ "./node_modules/alpinejs/dist/module.esm.js":
 /*!**************************************************!*\
