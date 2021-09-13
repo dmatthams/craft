@@ -1,4 +1,4 @@
-dateModified: 1631546330
+dateModified: 1631546970
 email:
   fromEmail: admin@admin.com
   fromName: 'Craft Boilerplate'
@@ -9,6 +9,11 @@ meta:
     cdf2ecd8-c4bb-4cab-8081-5909e79654ee: Common # Common
     d734662a-0dcd-4fe1-a959-5bcd1c43c55d: 'Craft Boilerplate' # Craft Boilerplate
     f3c5a663-2b53-4771-89f2-4276d81adbff: 'Craft Boilerplate' # Craft Boilerplate
+plugins:
+  mix:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true
