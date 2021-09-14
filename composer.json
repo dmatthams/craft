@@ -42,8 +42,8 @@
   "scripts": {
     "post-create-project-cmd": [
       "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
-      "@php -r \"unlink('composer.json');\"",
-      "@php -r \"rename('composer.json.default', 'composer.json');\"",
+      "@php -r \"unlink('.gitignore');\"",
+      "@php -r \"rename('.gitignore.default', '.gitignore');\"",
       "@php -r \"@unlink('LICENSE.md');\"",
       "@php -r \"@unlink('README.md');\"",
       "@composer dump-autoload -o",
