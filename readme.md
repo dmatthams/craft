@@ -1,6 +1,6 @@
 # Craft Boilerplate
 
-A simple starting point for Craft, using Craft Nitro and Laravel Mix
+A minimal starting point for Craft, using Craft Nitro and Laravel Mix.
 
 1. [Install Craft Nitro](https://getnitro.sh)
 2. `nitro create https://github.com/dmatthams/craft your-project`
